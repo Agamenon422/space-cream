@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+}
+
+:root {
+  --ff-heading: 'Staatliches', sans-serif; /*criando variável*/
+  --ff-texting: 'Palanquin', sans-serif;
+
+  font-size: 62.5%;
+
+}
+
+.page {
+  min-height: 30rem;
+  max-width: 38.5rem;
+  
+  background: #EFF1FF;
+
+  margin: 0 auto;
+}
+
+.tope {
+  height: 28rem;
+  min-width: 38.4rem;
+
+  display: block;
+  text-align: center;
+  z-index: -1;
+
+  background: #8E9AAF;
+  
+  padding-bottom: 7rem;
+}
+
+header img {
+  margin-top: 4rem;
+  margin-bottom: 3.5rem;
+}
+
+header h1 {  
+  font-family: var(--ff-texting);
+  font-weight: 600;
+  font-size: 4rem;
+  letter-spacing: 0.05em;
+      
+  text-transform: uppercase;
+
+  height: 5rem;
+    
+  color: #FFFFFF;
+  background: #CBC0D3;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 3.4rem;
+
+  padding-bottom: 0.5rem;
+  margin-bottom: 4rem;
+}
+
+main {
+  padding: 3px;
+  display: grid;
+  
+  
+}
+
+main p {
+  margin-bottom: 6rem;
+  font-family: var(--ff-texting);
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2rem;
+
+ 
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  margin-top: 2rem;
+
+  color: #23053A;
+}
+
+.cards {
+  position: relative;
+  padding: 3.2rem;
+  
+}
+
+.cards h2 {
+  font-family: var(--ff-heading);
+  position: absolute;
+
+  top: 2rem;
+  right: 4rem;
+}
+
+
+
+
+
+
+
+
+
